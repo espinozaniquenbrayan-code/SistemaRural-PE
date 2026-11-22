@@ -26,3 +26,14 @@ def registrar_cita():
 
     citas.append([dni, fecha, hora])
     print("Cita registrada correctamente.")
+
+def registrar_historia():
+    dni = input("DNI del paciente: ")
+    diagnostico = input("Diagnóstico: ")
+
+    if dni not in [p[1] for p in pacientes]:
+        print("Paciente no encontrado.")
+        return
+
+    historias.append([dni, diagnostico])
+    print("Historia clínica guardada.")
