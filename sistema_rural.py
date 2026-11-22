@@ -36,13 +36,4 @@ def registrar_historia():
         return
 
     historias.append([dni, diagnostico])
-    print("Historia clínica guardada.")
-
-def controlar_medicamentos():
-    nombre = input("Medicamento: ")
-    cantidad = int(input("Cantidad disponible: "))
-
-    medicamentos.append([nombre, cantidad])
-
-    if cantidad
-    
+    print("Historia
