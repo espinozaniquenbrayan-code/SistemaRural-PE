@@ -44,7 +44,5 @@ def controlar_medicamentos():
 
     medicamentos.append([nombre, cantidad])
 
-    if cantidad < 5:
-        print("¡ALERTA! Stock bajo.")
-    else:
-        print("Stock suficiente.")
+    if cantidad
+    
