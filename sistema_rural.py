@@ -37,3 +37,14 @@ def registrar_historia():
 
     historias.append([dni, diagnostico])
     print("Historia clínica guardada.")
+
+def controlar_medicamentos():
+    nombre = input("Medicamento: ")
+    cantidad = int(input("Cantidad disponible: "))
+
+    medicamentos.append([nombre, cantidad])
+
+    if cantidad < 5:
+        print("¡ALERTA! Stock bajo.")
+    else:
+        print("Stock suficiente.")
