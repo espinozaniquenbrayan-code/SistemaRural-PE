@@ -19,5 +19,10 @@ def registrar_cita():
         print("Paciente no encontrado.")
         return
 
+    for cita in citas:
+        if cita[1] == fecha and cita[2] == hora:
+            print("Horario ocupado.")
+            return
+
     citas.append([dni, fecha, hora])
     print("Cita registrada correctamente.")
