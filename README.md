@@ -6,3 +6,8 @@ Proyecto del curso Lenguajes de Programación (UAIN1288P) – Universidad Privad
 
 ## Objetivo
 Digitalizar el registro de pacientes, la programación de citas, las historias clínicas y el control de stock de medicamentos, que hoy se llevan en cuadernos.
+
+## Cómo ejecutarlo
+1. Instalar Python 3.
+2. Descargar el archivo `sistema_rural.py`.
+3. Abrir una terminal en la carpeta del archivo y ejecutar:
