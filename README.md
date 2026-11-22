@@ -9,5 +9,21 @@ Digitalizar el registro de pacientes, la programación de citas, las historias c
 
 ## Cómo ejecutarlo
 1. Instalar Python 3.
-2. Descargar el archivo `sistema_rural.py`.
-3. Abrir una terminal en la carpeta del archivo y ejecutar:
+2. Descargar el archivo sistema_rural.py.
+3. Abrir una terminal en la carpeta del archivo y ejecutar el comando: python sistema_rural.py
+
+## Opciones del menú
+1. Registrar paciente
+2. Registrar cita
+3. Historia clínica
+4. Controlar medicamentos
+0. Salir
+
+## Equipo – Grupo 2
+- Brayan Jeremy Espinoza Ñiquen
+- Ernst Atkinson Buitrón Rondón
+- Farid Alfredo Romero Martínez
+- Adriano Félix Zamudio Poma
+- Jair Linco Mamani Vásquez
+
+Docente: Alejandro Salazar Yabar
