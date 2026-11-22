@@ -1,0 +1,4 @@
+pacientes = []
+citas = []
+historias = []
+medicamentos = []
