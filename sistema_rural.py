@@ -36,4 +36,42 @@ def registrar_historia():
         return
 
     historias.append([dni, diagnostico])
-    print("Historia
+    print("Historia clínica guardada.")
+
+def controlar_medicamentos():
+    nombre = input("Medicamento: ")
+    cantidad = int(input("Cantidad disponible: "))
+
+    medicamentos.append([nombre, cantidad])
+
+    if cantidad < 5:
+        print("¡ALERTA! Stock bajo.")
+    else:
+        print("Stock suficiente.")
+
+def menu():
+    while True:
+        print("\n--- SISTEMA RURAL-PE ---")
+        print("1. Registrar paciente")
+        print("2. Registrar cita")
+        print("3. Historia clínica")
+        print("4. Controlar medicamentos")
+        print("0. Salir")
+
+        opcion = input("Seleccione: ")
+
+        if opcion == "1":
+            registrar_paciente()
+        elif opcion == "2":
+            registrar_cita()
+        elif opcion == "3":
+            registrar_historia()
+        elif opcion == "4":
+            controlar_medicamentos()
+        elif opcion == "0":
+            print("Sistema finalizado.")
+            break
+        else:
+            print("Opción incorrecta.")
+
+menu()
